@@ -1,1 +1,1 @@
-console.log('Hello Java Script is very good!asdasd');
+console.log('Hello Java Script is very good!');
