@@ -1,5 +1,5 @@
 function reverseString(value) {
-    let reverse = "";
+    let reverseValue = "";
 
 
     value.split("").forEach((char) => {
