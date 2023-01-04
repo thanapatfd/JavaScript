@@ -7,5 +7,5 @@ const kvArray = [
 
 const reformattedArray = kvArray.map(({key, value}) => ({key, value}));
 
-console.log(reformatattedArray);
+console.log(reformattedArray);
 console.log(kvArray);
