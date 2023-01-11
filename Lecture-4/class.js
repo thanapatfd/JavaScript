@@ -5,9 +5,13 @@ class Song {
     }
     
     play(){
-        console.log("Song playing")
+        console.log("Song playing!")
+    }
+    stop(){
+        console.log("Stopping!")
     }
 }
 
 const mySong = new Song();
 mySong.play();
+mySong.stop();
