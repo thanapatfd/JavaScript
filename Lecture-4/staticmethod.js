@@ -13,3 +13,9 @@ class dog {
 }
 const myDog = new dog("Buster");
 myDog.introduce();
+dog.bark();
+
+
+const my2Dog = new dog("Ford");
+my2Dog.introduce();
+dog.bark();
