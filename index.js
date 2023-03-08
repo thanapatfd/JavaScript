@@ -1,5 +1,13 @@
-<<<<<<< HEAD
-console.log('Hello Java Script is very good!');
-=======
-console.log('Hello Java Script is very good!');
->>>>>>> f4edab4a56c406557a2fb9282bd9c7e04c2595c9
+require("dotenv").config();
+
+const express = require("express");
+const app = express();
+const port = process.env.PORT;
+
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening at http//localhost:${port}`);
+});

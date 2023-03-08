@@ -1,5 +1,5 @@
 function sumTwoSmallestNums(...num) {
-// for(let)
+  // for(let)
 }
 
-sumTwoSmallestNums([19,5,42,2,77]);
+sumTwoSmallestNums([19, 5, 42, 2, 77]);

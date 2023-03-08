@@ -1,0 +1,29 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "to collect all the code of JavaScript Class",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanapatfd/JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanapatfd/JavaScript/issues"
+  },
+  "homepage": "https://github.com/thanapatfd/JavaScript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
